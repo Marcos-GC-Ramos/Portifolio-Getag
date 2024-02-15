@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfólio GETAG - Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon-GETAG.svg" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="./assets/css/main.css" rel="stylesheet">
+  <link href="./assets/css/index-estilo.css" rel="stylesheet">
+  <link href="./assets/css/_reset.css"  rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Imagem de fundo -->
+  <img src="./assets/img/img-background.svg" alt="" class="imagem-de-fundo img-fluid">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    
+    <!-- OFFCANVAS(Sanduiche) -->
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    <div class="container-fluid d-flex align-items-center justify-content-around">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="sobre.html">SOBRE</a></li>
+          <li class="dropdown"><a href="#"><span>SERVIÇOS</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+                <li><a href="/view/servicos/geoprocessamento/geoprocessamento.html">Geoprocessamento</a></li>
+                <li><a href="/view/servicos/analise_de_dados/analise_de_dados.html">Analise de dados</a></li>
+                <li><a href="/view/servicos/desenvolvimento/desenvolvimento.html">Desenvolvimento</a></li>
+                <li><a href="/view/servicos/devops/devops.html">Devops</a></li>
+              </ul>
+          </li>
+          <li><a href="/galeria.html">GALERIA GETAG</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->  
+
+  <!-- Section Logo GETAG -->
+  <section class="section-logoGETAG" data-aos="fade" data-aos-delay="1500">
+    <div class="row align-items-end">
+      <div class="col-lg-5 text-center mb-5 mb-lg-0">
+        <a href="index.html" class="btn-zoom">
+          <img src="./assets/img/Getag.svg" class="img-logoGETAG" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-7 col-IlustracaoGETAG">
+        <img src="./assets/img/getag ilustração.svg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End -->
+
+  <main id="main" data-aos="fade" data-aos-delay="1500" class="works">
+
+    <!-- Section Galeria -->
+    <section id="gallery" class="section-galeria gallery">
+        <!-- Img Projetos -->
+        <div class="text-center div-projetos">
+          <img src="assets/img/projetos (1).svg" class="img-fluid" alt="">
+        </div>
+        
+        <!-- Opções de filtro -->
+        <div class="tabs mb-5">
+          <ul>
+            <li><a class="active" href="#" data-filter="*">Todos</a></li>
+            <li ><a  href="#" data-filter="dados">Análise de Dados</a></li>
+            <li><a href="#" data-filter="dev">Desenvolvimento</a></li>
+            <li><a href="#" data-filter="devops">DevOps</a></li>
+            <li><a href="#" data-filter="geo">Geoprocessamento</a></li>
+          </ul>
+        </div>
+
+        <!-- Galeria de Projetos -->
+        <div class="row gy-4 justify-content-center items">
+
+          <div class=" col-xl-3 col-lg-4 col-md-6 rem">        
+            <div class="gallery-item h-100 item " data-filer="dev">
+              <img src="assets/img/gallery/gallery1.svg" class="galeria" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="/view/gallerys/gallery-gae.html" class="details-link" data-tooltip="GAE"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+        
+          <div class="col-xl-3 col-lg-4 col-md-6 rem" >
+            <div class="gallery-item h-100 item" data-filer="dev">
+              <img src="assets/img/gallery/gallery-2.svg" class="galeria" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="/view/gallerys/gallery-single.html" class="details-link"  data-tooltip="GETAG" ><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+          
+          <div class="col-xl-3 col-lg-4 col-md-6 rem" >
+            <div  class="gallery-item h-100 item" data-filer="dev">
+              <img src="assets/img/gallery/gallery-3.svg" class="galeria" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="/view/gallerys/gallery-sisbi.html" class="details-link" data-tooltip="SISBI"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 rem" >
+            <div  class="gallery-item h-100 item" data-filer="dev">
+
+              <img src="assets/img/gallery/gallery-4.svg" class="galeria" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="/view/gallerys/gallery-cepan.html" class="details-link" data-tooltip="CEPAN" ><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 rem" >
+            <div class="gallery-item h-100 item" data-filer="dev">
+              <img src="assets/img/gallery/gallery-5.svg" class="galeria" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="/view/gallerys/gallery-siges.html" class="details-link" data-tooltip="SIGES"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 rem" > 
+            <div  class="gallery-item h-100 item" data-filer="dev">
+              <img src="assets/img/gallery/gallery-6.svg" class="galeria" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="/view/gallerys/gallery-supletivo.html" class="details-link" data-tooltip="SUPLETIVO"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+        
+        </div>
+    </section>
+    <!-- End -->
+
+  </main>
+
+  <!-- Botão pra subir para o topo da pagina  -->
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Tela de Carregamneto -->
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    /* Active links + Filter */
+    const activeLink = document.querySelectorAll(".works .tabs ul li a");
+    const activeTab = document.querySelectorAll(".items .item");
+    const divRem = document.querySelectorAll(".rem"); // Seleciona todas as divs com classe "rem"
+  
+    activeLink.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        activeLink.forEach((link) => {
+          link.classList.remove("active");
+        });
+        link.classList.add("active");
+  
+        // filter Projects
+        let projects = link.dataset.filter;
+  
+        activeTab.forEach((tab) => {
+          tab.classList.add("active");
+        });
+  
+        // Show all divs with class "rem"
+        divRem.forEach((div) => {
+          div.style.display = "block";
+        });
+  
+        activeTab.forEach((tab) => {
+          if (tab.dataset.filer === projects || projects == "*") {
+            setTimeout(() => {
+              tab.classList.remove("active");
+              const tooltip = tab.querySelector(".tooltip");
+              if (tooltip) {
+                tooltip.remove();
+              }
+            }, 100);
+          } else {
+            const parentDiv = tab.closest(".rem"); // Encontra o ancestral com classe "rem"
+            if (parentDiv) {
+              parentDiv.style.display = "none"; // Aplica "display: none" ao ancestral
+            }
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
