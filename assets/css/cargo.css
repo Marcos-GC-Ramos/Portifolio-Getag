@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------
+# SERVIÇOS - ÁREAS DE TRABALHO 
+--------------------------------------------------------------*/
+/* ÁREAS DE TRABALHO */
+.conteiner {
+  width: 100%;
+  display: flex;
+  padding-bottom: 10%;
+  margin-top: 15vh;
+}
+
+/* ÁREAS DE TRABALHO */
+.linha {
+  margin-top: 11%;
+}
+
+/* ÁREAS DE TRABALHO */
+.primeirocontainer {
+  width: 100%;
+  /* margin-left: 4%; */
+  margin-right: 5%;
+}
+
+.imglogo {
+  padding-left: 4.7% !important;
+}
+
+/* -------- IMAGEM ------------ */
+.geo {
+  width: 100rem!important;
+}
+.getag {
+  width: 100rem !important;
+}
+@media screen and (max-width: 991px) {
+  .geo {
+    width: 50% !important;
+    margin: 10% 25% 10% 25%;
+  }
+  .getag {
+    width: 50% !important;
+    margin: 10% 25% 10% 25%;
+  }
+  @media screen and (max-width: 400px) {
+    .geo {
+      display: none;
+    }
+  }
+  
+}
+
+/* ÁREAS DE TRABALHO */
+.segundocontainer {
+  /* background: red; */
+  width: 100%;
+  padding-top: 15vh;
+  align-items: left;
+}
+
+.texto {
+  text-align: right;
+  margin-right: 5vh !important;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 650px) {
+
+  .conteiner {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .primeirocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .segundocontainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100%;
+    text-align: right !important;
+  }
+
+  .texto {
+    text-align: center;
+    margin-right: 0vh !important;
+    padding: 0 5px;
+  }
+
+}
